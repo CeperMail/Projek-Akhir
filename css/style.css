@@ -1,6 +1,5 @@
 /********** Template CSS **********/
 :root {
-    --primary: #E3B04B;
     --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
@@ -94,7 +93,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #E3B04B;
 }
 
 @media (max-width: 991.98px) {
@@ -204,12 +203,12 @@
 
 /*** Service ***/
 .service .nav .nav-link {
-    background: var(--light);
+    background: #E3B04B;;
     transition: .5s;
 }
 
 .service .nav .nav-link.active {
-    background: var(--primary);
+    background: #E3B04B;
 }
 
 .service .nav .nav-link.active h4 {
@@ -242,20 +241,53 @@
 
 .bootstrap-datetimepicker-widget table td.active,
 .bootstrap-datetimepicker-widget table td.active:hover {
-    background: var(--primary);
+    background: #E3B04B;
 }
 
 .bootstrap-datetimepicker-widget table td.today::before {
-    border-bottom-color: var(--primary);
+    border-bottom-color: #E3B04B;
 }
 
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #0B2154;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /*** Team ***/
 .team-item .team-overlay {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--primary);
+    background: #E3B04B;;
     transform: scale(0);
     transition: .5s;
 }
@@ -265,7 +297,7 @@
 }
 
 .team-item .team-overlay .btn {
-    color: var(--primary);
+    color: #E3B04B;;
     background: #FFFFFF;
 }
 
@@ -282,7 +314,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
+    background: #E3B04B !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -307,8 +339,8 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: #E3B04B;;
+    border-color: #E3B04B;;
 }
 
 
@@ -332,7 +364,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: #E3B04B;;
 }
 
 .footer .btn.btn-link {
